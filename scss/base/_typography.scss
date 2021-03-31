@@ -4,7 +4,7 @@
 /* ============================================= */
 
 * {
-    font-family: 'Lato', sans-serif;
+    @include primary-font-stack;
     color: $secondary-color;
     box-sizing: border-box;
   }

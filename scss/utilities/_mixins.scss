@@ -1,0 +1,26 @@
+/* Mixins */
+
+/* Base */ 
+
+@mixin primary-font-stack {
+    font-family: 'Lato', sans-serif;
+
+}
+
+@mixin img-base {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    max-width: 100%; 
+    max-height: 100%;
+
+}
+
+@mixin center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+

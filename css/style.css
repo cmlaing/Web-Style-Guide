@@ -1,3 +1,5 @@
+/* Mixins */
+/* Base */
 /* Variables */
 /* for transition state on nav-link */
 /* Colors */
@@ -608,6 +610,143 @@ a {
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
+}
+
+/* ============================================= */
+/*              Images                           */
+/* ============================================= */
+/* line 5, ../../../../Web Course/Web-Style-Guide/scss/components/_images.scss */
+.img-avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* line 9, ../../../../Web Course/Web-Style-Guide/scss/components/_images.scss */
+.img-frame {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 13px;
+  border: 1px solid #ccc;
+}
+
+/* line 15, ../../../../Web Course/Web-Style-Guide/scss/components/_images.scss */
+.img-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ============================================= */
+/*              Media Queries                    */
+/* ============================================= */
+@media (min-width: 768px) {
+  /* line 7, ../../../../Web Course/Web-Style-Guide/scss/components/_media_queries.scss */
+  .container {
+    max-width: 1400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 14, ../../../../Web Course/Web-Style-Guide/scss/components/_media_queries.scss */
+  .centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 18, ../../../../Web Course/Web-Style-Guide/scss/components/_media_queries.scss */
+  .row {
+    flex-direction: row;
+  }
+  /* line 22, ../../../../Web Course/Web-Style-Guide/scss/components/_media_queries.scss */
+  [class^=col] {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    align-items: center;
+  }
+  /* line 29, ../../../../Web Course/Web-Style-Guide/scss/components/_media_queries.scss */
+  [class^=col] + [class^=col] {
+    margin-left: 10px;
+  }
+  /* line 33, ../../../../Web Course/Web-Style-Guide/scss/components/_media_queries.scss */
+  .col-1 {
+    flex-basis: 8.33%;
+  }
+  /* line 37, ../../../../Web Course/Web-Style-Guide/scss/components/_media_queries.scss */
+  .col-2 {
+    flex-basis: 16.67%;
+  }
+  /* line 41, ../../../../Web Course/Web-Style-Guide/scss/components/_media_queries.scss */
+  .col-3 {
+    flex-basis: 25.00%;
+  }
+  /* line 45, ../../../../Web Course/Web-Style-Guide/scss/components/_media_queries.scss */
+  .col-4 {
+    flex-basis: 33.33%;
+  }
+  /* line 49, ../../../../Web Course/Web-Style-Guide/scss/components/_media_queries.scss */
+  .col-5 {
+    flex-basis: 41.67%;
+  }
+  /* line 53, ../../../../Web Course/Web-Style-Guide/scss/components/_media_queries.scss */
+  .col-6 {
+    flex-basis: 50.00%;
+  }
+  /* line 57, ../../../../Web Course/Web-Style-Guide/scss/components/_media_queries.scss */
+  .col-7 {
+    flex-basis: 58.33%;
+  }
+  /* line 61, ../../../../Web Course/Web-Style-Guide/scss/components/_media_queries.scss */
+  .col-8 {
+    flex-basis: 66.67%;
+  }
+  /* line 65, ../../../../Web Course/Web-Style-Guide/scss/components/_media_queries.scss */
+  .col-9 {
+    flex-basis: 75.00%;
+  }
+  /* line 69, ../../../../Web Course/Web-Style-Guide/scss/components/_media_queries.scss */
+  .col-10 {
+    flex-basis: 83.33%;
+  }
+  /* line 73, ../../../../Web Course/Web-Style-Guide/scss/components/_media_queries.scss */
+  .col-11 {
+    flex-basis: 91.67%;
+  }
+  /* line 77, ../../../../Web Course/Web-Style-Guide/scss/components/_media_queries.scss */
+  .col-12 {
+    flex-basis: 100%;
+  }
+  /* line 81, ../../../../Web Course/Web-Style-Guide/scss/components/_media_queries.scss */
+  .nav {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  /* line 87, ../../../../Web Course/Web-Style-Guide/scss/components/_media_queries.scss */
+  .nav-link {
+    flex-basis: 100px;
+  }
+  /* line 91, ../../../../Web Course/Web-Style-Guide/scss/components/_media_queries.scss */
+  .btn {
+    padding: 10px 30px;
+  }
+  /* line 95, ../../../../Web Course/Web-Style-Guide/scss/components/_media_queries.scss */
+  .btn + .btn {
+    margin-left: 10px;
+  }
+  /* line 99, ../../../../Web Course/Web-Style-Guide/scss/components/_media_queries.scss */
+  .logo {
+    margin-left: initial;
+    margin-right: initial;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
