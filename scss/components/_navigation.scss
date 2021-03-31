@@ -16,11 +16,11 @@
     display: block;
     width: 100%;
     transition: 
-      background-color .2s ease-in-out, 
-      color .2s ease-in-out;
+      background-color $transition-time ease-in-out, 
+      color $transition-time ease-in-out;
   }
   
   .nav-link:hover {
-    color: #fff;
-    background-color: #58e1c1;
+    color: $link-color-hover;
+    background-color: $primary-color;
   }
