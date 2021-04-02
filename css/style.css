@@ -432,7 +432,7 @@ a {
 /* ============================================= */
 /*              Buttons                          */
 /* ============================================= */
-/* line 5, ../../../../Web Course/Web-Style-Guide/scss/components/_button.scss */
+/* line 15, ../../../../Web Course/Web-Style-Guide/scss/components/_button.scss */
 .btn {
   margin-top: 15px;
   width: 100%;
@@ -443,34 +443,54 @@ a {
   border-radius: 5px;
 }
 
-/* line 13, ../../../../Web Course/Web-Style-Guide/scss/components/_button.scss */
-.btn:hover {
-  background: #83e7fd;
-}
-
-/* line 20, ../../../../Web Course/Web-Style-Guide/scss/components/_button.scss */
-.default {
+/* line 25, ../../../../Web Course/Web-Style-Guide/scss/components/_button.scss */
+.btn.default {
   background-color: #51ddfc;
 }
 
-/* line 24, ../../../../Web Course/Web-Style-Guide/scss/components/_button.scss */
-.error {
-  background-color: #e4757a;
+/* line 27, ../../../../Web Course/Web-Style-Guide/scss/components/_button.scss */
+.btn.default:hover {
+  background-color: #83e7fd;
 }
 
-/* line 28, ../../../../Web Course/Web-Style-Guide/scss/components/_button.scss */
-.info {
-  background-color: #927bc1;
-}
-
-/* line 32, ../../../../Web Course/Web-Style-Guide/scss/components/_button.scss */
-.success {
+/* line 25, ../../../../Web Course/Web-Style-Guide/scss/components/_button.scss */
+.btn.success {
   background-color: #63cc82;
 }
 
-/* line 36, ../../../../Web Course/Web-Style-Guide/scss/components/_button.scss */
-.warning {
+/* line 27, ../../../../Web Course/Web-Style-Guide/scss/components/_button.scss */
+.btn.success:hover {
+  background-color: #89d9a1;
+}
+
+/* line 25, ../../../../Web Course/Web-Style-Guide/scss/components/_button.scss */
+.btn.error {
+  background-color: #e4757a;
+}
+
+/* line 27, ../../../../Web Course/Web-Style-Guide/scss/components/_button.scss */
+.btn.error:hover {
+  background-color: #eca0a3;
+}
+
+/* line 25, ../../../../Web Course/Web-Style-Guide/scss/components/_button.scss */
+.btn.warning {
   background-color: #fd7856;
+}
+
+/* line 27, ../../../../Web Course/Web-Style-Guide/scss/components/_button.scss */
+.btn.warning:hover {
+  background-color: #fea088;
+}
+
+/* line 25, ../../../../Web Course/Web-Style-Guide/scss/components/_button.scss */
+.btn.info {
+  background-color: #927bc1;
+}
+
+/* line 27, ../../../../Web Course/Web-Style-Guide/scss/components/_button.scss */
+.btn.info:hover {
+  background-color: #af9ed1;
 }
 
 /* ============================================= */

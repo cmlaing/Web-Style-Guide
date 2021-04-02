@@ -2,37 +2,31 @@
 /*              Buttons                          */
 /* ============================================= */
 
+// button color map
+$button-colors: (
+  default: $button-default,
+  success: $button-success,
+  error: $button-error,
+  warning: $button-warning,
+  info: $button-info
+);
+
+
 .btn {
     margin-top: 15px;
     width: 100%;
-    color: #fff;
+    color: $link-color-hover;
     border: none;
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
-    &:hover {
-      background: lighten($button-default, 10%);
 
+    @each $key, $color in $button-colors { //access button color map
+        &.#{$key} {
+          background-color: $color;
+          &:hover {
+            background-color: lighten($color, 10%); //lighten original bg color
+          }
+        }
     }
-
-  }
-  
-  .default {
-    background-color: $button-default;
-  }
-  
-  .error {
-    background-color: $button-error;
-  }
-  
-  .info {
-    background-color: $button-info;
-  }
-  
-  .success {
-    background-color: $button-success;
-  }
-  
-  .warning {
-    background-color: $button-warning;
   }
